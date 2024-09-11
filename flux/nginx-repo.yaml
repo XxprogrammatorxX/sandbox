@@ -1,9 +1,10 @@
-apiVersion: source.toolkit.fluxcd.io/v1beta1
+apiVersion: source.toolkit.fluxcd.io/v1
 kind: GitRepository
 metadata:
-  name: nginx-repo
+  name: sandbox
   namespace: flux-system
 spec:
-  interval: 1m
+  interval: 1m0s
+  ref:
+    branch: main
   url: https://github.com/XxprogrammatorxX/sandbox
-  branch: main
