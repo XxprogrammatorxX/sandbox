@@ -27,7 +27,7 @@ spec:
   chart:
     spec:
       chart: ./nginx-chart
-      version: '4.0.x'
+      version: 0.1.0
       sourceRef:
         kind: GitRepository
         name: sandbox
