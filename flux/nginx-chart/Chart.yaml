@@ -1,5 +1,5 @@
 apiVersion: v2
 name: sandbox
 description: A Helm chart for deploying Nginx
-version: 0.1.0
+version: '4.0.x'
 appVersion: "1.21.0"
