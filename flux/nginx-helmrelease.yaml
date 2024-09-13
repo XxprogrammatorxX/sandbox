@@ -23,7 +23,7 @@ metadata:
   name: sandbox
   namespace: default
 spec:
-  interval: 10m
+  interval: 1m
   chart:
     spec:
       chart: ./flux/nginx-chart
@@ -32,6 +32,5 @@ spec:
         kind: GitRepository
         name: sandbox
         namespace: default
-      interval: 10m
   values:
     replicaCount: 5
