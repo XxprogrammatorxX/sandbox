@@ -26,7 +26,7 @@ spec:
   interval: 10m
   chart:
     spec:
-      chart: ./nginx-chart/chart.yaml
+      chart: ./nginx-chart
       version: '4.0.x'
       sourceRef:
         kind: GitRepository
