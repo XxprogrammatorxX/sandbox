@@ -31,7 +31,7 @@ spec:
       sourceRef:
         kind: GitRepository
         name: sandbox
-        namespace: flux-system
+        namespace: default
       interval: 10m
   values:
     replicaCount: 2
